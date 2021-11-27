@@ -5,7 +5,7 @@ import './styles/styles.scss'
 
 const App = () => (
   <fragment>
-  <div>
+  <div className ="saludo"> 
     <h1>Hola Mundo</h1>
     <p>Hola, saludando desde el componente</p>
   </div>
@@ -27,4 +27,6 @@ export default App;
 //3: Apoyarse de los fragment cuando necesito devolver 2 elementos
 //4: Fragment => <> hijos </>
 //5: img siempre se cierra
-//6: 
+//6: class pasa a ser className
+//7: for pasa a ser htmlFor
+//8: No se puede usar if, else, while, se deben recurrir a otras practicas
