@@ -26,8 +26,6 @@ const App = () => (
   <Cursos />
   <Cursos />
   <Cursos />
-  <Cursos />
-  <Cursos />
 </div>
 </>
 )
