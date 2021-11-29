@@ -19,7 +19,12 @@ const App = () => (
   </div>
 </div>
 <div className="ed-grid m-grid-3">
-  <Cursos />
+  <Cursos 
+  title ="React desde cero"
+  image ="https://ed.team/_next/image?url=https%3A%2F%2Fedteam-media.s3.amazonaws.com%2Fcourses%2Fbig%2F69017329-98f5-4975-9bd7-91165a45822b.png&w=1200&q=75"
+  price = "80USD"
+  />
+
 </div>
 </>
 )
