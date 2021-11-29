@@ -2,21 +2,34 @@
 //reemplazarlo por este nuevo estilo que creamos en la carpeta styles
 import { Fragment } from 'react';
 import './styles/styles.scss'
+import Cursos from './componentes/Cursos.js';
 
 const App = () => (
-  <fragment>
-  <div className ="saludo"> 
-    <h1>Hola Mundo</h1>
-    <p>Hola, saludando desde el componente</p>
-  </div>
-  <div>
-    <h2>Hola mundo soy un h2</h2>
-    <p>Hola, saludando desde mi componente h2</p>
-  </div>
-  <div>
-    <img src="https://www.dzoom.org.es/wp-content/uploads/2010/09/mirada-ojos-encuadre-primer-plano-sexy-810x540.jpg" />
+  <>
+ <div className="main-banner img-container l-section" id="main-banner">
+  <div className="ed-grid lg-grid-6">
+    <div className="lg-cols-4 lg-x-2">
+      <img className="main-banner__img" alt= "banner" src="https://media.tacdn.com/media/attractions-content--1x-1/0b/2d/dc/c2.jpg"/>
+      <div className="main-banner__data s-center">
+        <p className="t2 s-mb-0">Cursos de Edteam</p>
+        <p> Tu futuro te esta esperando</p>
+        <a href="none" className="button">Suscribirse</a>
+      </div>
     </div>
-  </fragment>
+  </div>
+</div>
+<div className="ed-grid m-grid-3">
+  <Cursos />
+  <Cursos />
+  <Cursos />
+  <Cursos />
+  <Cursos />
+  <Cursos />
+  <Cursos />
+  <Cursos />
+  <Cursos />
+</div>
+</>
 )
 
 export default App;
